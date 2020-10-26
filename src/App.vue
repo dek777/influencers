@@ -41,6 +41,7 @@ body{
   background-color: #DADADA;;
 }
 
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -48,6 +49,11 @@ body{
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+@media(max-width: 442px){
+  #app{
+    font-size: 12px;
+  }
 }
 
 *{

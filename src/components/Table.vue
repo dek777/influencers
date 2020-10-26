@@ -61,7 +61,6 @@ export default {
 <style scoped>
 .table {
   width: 100%;
-  padding: 15px;
   max-width: 900px;
   margin: 50px auto;
   background-color: #fff;
@@ -70,6 +69,11 @@ export default {
   -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
   -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
   box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+}
+@media(max-width: 920px){
+  .table {
+    padding: 15px;
+  }
 }
 
 .table__header {

@@ -44,6 +44,12 @@ export default {
   display: flex;
   align-items: center;
 }
+@media(max-width: 680px){
+  .row__info{
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
 
 .row__wrap:hover .row__avatar{
   transition: all 0.1s ease;
